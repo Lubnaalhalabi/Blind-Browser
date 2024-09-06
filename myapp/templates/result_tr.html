@@ -1,0 +1,271 @@
+{% load static %}
+
+<!-- Start Landing Page -->
+<div class="header-area" style="height: 34px;">
+    <div class="logo" style="color: #414242;">BlindBrowser</div>
+</div>
+<!-- End Landing Page -->
+<!-- Start TimeLine Section -->
+<div class="timeline" style="    padding: 16px 0;background-color: #eef0eb;">
+    <div class="container" style="max-width: 1430px;">
+        <div class="timeline-content" style="margin: 5px 0;">
+            <div class="content" style="margin: 0px 0;height: 512px;">
+                <div class="text-box" style="overflow-y: scroll;">
+                    <h1 class="about" style="    font-size: 30px;">Results</h1>
+                    {% for sublist in output %}
+                    {% for item in sublist %}
+                    {% if item.summary and item.text and item.description %}
+                    <div id="summary-segment-{{ item.id }}" class="segment">
+                        <h4>Summary of Segment {{ item.id }}
+                            <svg  onclick="playAudio('cropped_audios_summary_tr/{{ item.id }}.mp3')" style="color: var(--main-color);cursor: pointer;float: right;margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                            <svg onclick="toggleVisibility('{{ item.id }}')" style="color: var(--main-color);cursor: pointer; margin-top: 2px;float: right;margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-heading" viewBox="0 0 16 16">
+                                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/>
+                                <path d="M3 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m0-5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5z"/>
+                            </svg>                                      
+                        </h4>
+                        <p class="text">
+                            {{ item.summary }}
+                        </p>
+                    </div>
+                    <div id="full-segment-{{ item.id }}" class="segment" style="display: none;">
+                        <h4>Segment {{ item.id }}
+                            <svg  onclick="playAudio('cropped_audios_tr/{{ item.id }}.mp3')" style="color: var(--main-color);cursor: pointer;float: right;margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                            <svg onclick="toggleVisibility('{{ item.id }}')"  style="color: var(--main-color);cursor: pointer; margin-top: 2px;float: right;margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-heading" viewBox="0 0 16 16">
+                                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/>
+                                <path d="M3 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m0-5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                            <svg onclick="toggleSegDes('{{item.id}}')" style="color: var(--main-color);cursor: pointer; margin-top: 2px;float: right;margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+                                <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+                            </svg>   
+                        </h4>
+                        <p class="text">
+                            {{ item.text }}
+                        </p>
+                    </div>
+                    <div id="description-{{ item.id }}" class="segment" style="display: none;">
+                        <h4>Description {{ item.id }}
+                            <svg  onclick="playAudio('cropped_audios_description_tr/{{ item.id }}.mp3')" style="color: var(--main-color);cursor: pointer;float: right;margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                            <svg onclick="toggleSegDes('{{item.id}}')" style="color: var(--main-color);cursor: pointer; margin-top: 2px;float: right;margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+                                <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+                            </svg>   
+                        </h4>
+                        <p class="text">
+                            {{ item.description }}
+                        </p>
+                        <img src= 'static/cropped_images_tr/{{ item.id }}.png' style="width: 70%;margin-left: 12%;"/>
+                    </div>
+                    {% elif item.summary and item.text%}
+                    <div id="summary-segment-{{ item.id }}" class="segment">
+                        <h4>Summary of Segment {{ item.id }}
+                            <svg  onclick="playAudio('cropped_audios_summary_tr/{{ item.id }}.mp3')" style="color: var(--main-color);cursor: pointer;float: right;margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                            <svg onclick="toggleVisibility('{{ item.id }}')" style="color: var(--main-color);cursor: pointer; margin-top: 2px;float: right;margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-heading" viewBox="0 0 16 16">
+                                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/>
+                                <path d="M3 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m0-5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5z"/>
+                            </svg>                                      
+                        </h4>
+                        <p class="text">
+                            {{ item.summary }}
+                        </p>
+                    </div>
+                    <div id="full-segment-{{ item.id }}" class="segment" style="display: none;">
+                        <h4>Segment {{ item.id }}
+                            <svg  onclick="playAudio('cropped_audios_tr/{{ item.id }}.mp3')" style="color: var(--main-color);cursor: pointer;float: right;margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                            <svg onclick="toggleVisibility('{{ item.id }}')"  style="color: var(--main-color);cursor: pointer; margin-top: 2px;float: right;margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-heading" viewBox="0 0 16 16">
+                                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/>
+                                <path d="M3 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m0-5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </h4>
+                        <p class="text">
+                            {{ item.text }}
+                        </p>
+                    </div>
+                    {% elif item.text and item.description %}
+                    <div id="full-segment-{{ item.id }}" class="segment">
+                        <h4>Segment {{ item.id }}
+                            <svg  onclick="playAudio('cropped_audios_tr/{{ item.id }}.mp3')" style="color: var(--main-color);cursor: pointer;float: right;margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                            <svg onclick="toggleSegDes('{{item.id}}')" style="color: var(--main-color);cursor: pointer; margin-top: 2px;float: right;margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+                                <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+                            </svg>   
+                        </h4>
+                        <p class="text">
+                            {{ item.text }}
+                        </p>
+                    </div>
+                    <div id="description-{{ item.id }}" class="segment" style="display: none;">
+                        <h4>Description {{ item.id }}
+                            <svg  onclick="playAudio('cropped_audios_description_tr/{{ item.id }}.mp3')" style="color: var(--main-color);cursor: pointer;float: right;margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                            <svg onclick="toggleSegDes('{{item.id}}')" style="color: var(--main-color);cursor: pointer; margin-top: 2px;float: right;margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+                                <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1"/>
+                            </svg>   
+                        </h4>
+                        <p class="text">
+                            {{ item.description }}
+                        </p>
+                        <img src= 'static/cropped_images_tr/{{ item.id }}.png' style="width: 70%;margin-left: 12%;"/>
+                    </div>
+                    {% elif item.text %}
+                    <div id="full-segment-{{ item.id }}" class="segment">
+                        <h4>Segment {{ item.id }}
+                            <svg  onclick="playAudio('cropped_audios_tr/{{ item.id }}.mp3')" style="color: var(--main-color);cursor: pointer;float: right;margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                        </h4>
+                        <p class="text">
+                            {{ item.text }}
+                        </p>
+                    </div>
+                    {% elif item.description %}
+                    <div id="description-{{ item.id }}" class="segment">
+                        <h4>Description {{ item.id }}
+                            <svg  onclick="playAudio('cropped_audios_description_tr/{{ item.id }}.mp3')" style="color: var(--main-color);cursor: pointer;float: right;margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                        </h4>
+                        <p class="text">
+                            {{ item.description }}
+                        </p>
+                        <img src= 'static/cropped_images_tr/{{ item.id }}.png' style="width: 70%;margin-left: 12%;"/>
+                    </div> 
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                </div>
+                <div class="image" style="overflow-x: hidden; position: relative;">
+                    <img
+                        src= "{%static 'Images/segmented_image.png' %}"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End TimeLine -->
+<!-- Start Footer -->
+<div class="footer" style="padding: 15px;float: right;width: 180px;margin-right: 145px;">
+    <div class="container">
+        <div class="social-media" style="display: ruby;cursor: pointer;">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5"/>
+                    </svg>
+                </span>
+                <a id="delete-static-files" ><span> Try Other URL </span></a>
+        </div>
+    </div>
+</div>
+<!-- End Footer -->
+<!--Start audio-player-->
+<audio id="audio-player"style="display: none" controls></audio>
+<!--End audio-player-->
+
+
+<script src="{% static 'JS/master.js' %}"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    // Function to play audio from a specified path
+    function playAudio(audioPath) {
+        // Construct the full path to the audio file
+        path = '/static/' + audioPath
+        // Log the path for debugging
+        console.log(path)
+        // Get the audio player element
+        var audioPlayer = document.getElementById('audio-player');
+        // Log the path for debugging
+        console.log(path)
+        // Set the source of the audio player
+        audioPlayer.src = path;
+        // Play the audio
+        audioPlayer.play();
+    }
+    
+    // Function to toggle visibility of segments
+    function toggleVisibility(id) {
+        // Get the summary segment element
+        var summarySegment = document.getElementById('summary-segment-' + id);
+        // Get the full segment element
+        var segment = document.getElementById('full-segment-' + id);
+        
+        // Toggle visibility between summary and full segments
+        if (summarySegment.style.display === 'none') {
+            // Show the summary segment
+            summarySegment.style.display = 'block';
+            // Hide the full segment
+            segment.style.display = 'none';
+        } else {
+            // Hide the summary segment
+            summarySegment.style.display = 'none';
+            // Show the full segment
+            segment.style.display = 'block';
+        }
+    }
+
+    // Function to toggle visibility of segments
+    function toggleSegDes(id) {
+        // Get the description segment element
+        var descriptionSegment = document.getElementById('description-' + id);
+        // Get the full segment element
+        var segment = document.getElementById('full-segment-' + id);
+        
+        // Toggle visibility between description and full segments
+        if (descriptionSegment.style.display === 'none') {
+            // Show the description segment
+            descriptionSegment.style.display = 'block';
+            // Hide the full segment
+            segment.style.display = 'none';
+        } else {
+            // Hide the description segment
+            descriptionSegment.style.display = 'none';
+            // Show the full segment
+            segment.style.display = 'block';
+        }
+    }
+
+    // jQuery function to handle the document ready event
+    $(document).ready(function() {
+        // Event handler for the delete static files button
+        $('#delete-static-files').on('click', function() {
+            $.ajax({
+                type: 'POST',
+                // URL for the delete static files view
+                url: '{% url "delete-static-files" %}',
+                data: {
+                    // Include CSRF token for security
+                    'csrfmiddlewaretoken': '{{ csrf_token }}'
+                },
+                success: function(response) {
+                    // Handle successful response
+                    if (response.status === 'success') {
+                        // Redirect to index page on success
+                        window.location.href = '{% url "home" %}';
+                        // Log success message
+                        console.log('Static files deleted successfully.');
+                    } else {
+                        // Log error message if response status is not success                        
+                        console.log('Error deleting static files: ' + response.message);
+                    }
+                },
+                error: function(xhr, status, error) {
+                    // Log any errors that occur during the AJAX request                    
+                    console.error('An error occurred:', error);
+                }
+            });
+        });
+    });
+</script>
+    

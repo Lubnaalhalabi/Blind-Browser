@@ -1,0 +1,444 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BlindBrowser</title>
+        <link rel="stylesheet" href="{% static 'pe-icon-7-stroke/css/helper.css'%}">
+	    <link rel="stylesheet" href="{% static 'pe-icon-7-stroke/css/pe-icon-7-stroke.css'%}">
+        <link rel="stylesheet" href="{% static 'pe-icon-social/css/pe-icon-social.css'%}" />
+	    <link rel="stylesheet" href="{% static 'pe-icon-social/css/helper.css'%}">
+	    <link rel="stylesheet" href="{% static 'pe-icon-social/css/social-style.css'%}">
+        <link rel="stylesheet" href="{% static 'Css/helper.css'%}" />
+        <link rel="stylesheet" href="{% static 'Css/normalize.css'%}" />
+        <link rel="stylesheet" href="{% static 'Css/master.css'%}" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Open+Sans:wght@300;400;600&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <!-- Start Setting Box -->
+    <div class="settings-box">
+        <div class="toggle-settings">
+            <i class="pe-7s-config pe-2x pe-va settings"></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li data-colors="#1e7efb #bbe1fa 1"></li>
+                    <li class="active" data-colors="#4E9F3D #D8E9A8 2"></li>
+                    <li data-colors="#8b5a48 #cdb1a6 3"></li>
+                    <li data-colors="#627bff #cad2ff 4"></li>
+                    <li data-colors="#A12559 #F1BBD5 5"></li>
+                    <li data-colors="#fc679a #ffdbe7 6"></li>
+                </ul>
+                <div class="color-default">
+                    <span class="defau active">Default</span>
+                    <span class="customize">Customize</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Random Background</h4>
+                <div class="random-background">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Mode</h4>
+                <div class="mode-option">
+                    <span class="light-mode active" data-mode="light"
+                        >Light</span
+                    >
+                    <span class="dark-mode" data-mode="dark">Dark</span>
+                </div>
+            </div>
+            <button class="reset-options">
+                Reset Options
+                <i class="pe-7s-refresh"></i>
+            </button>
+        </div>
+    </div>
+    <!-- End Setting Box -->
+    <body>
+        <!-- Start Landing Page -->
+        <div class="landing-page">
+            <div class="overlay" style="background-image: url('/static/Images/1.jpg'); background-repeat: no-repeat; background-size: cover;"></div>            
+            <div class="header-area">
+                <div class="logo" style="color: #414242;">BlindBrowser</div>
+            </div>
+            <div class="introduction" style="top:70%">
+                <h1 style="color: #414242;">Site to support <span>Non-visual</span> Browsing</h1>
+                <p style="color: #414242;">
+                To enhance the browsing experience for the visually impaired
+                and achieve equality in access to information by promoting digital inclusion.
+                </p>
+            </div>
+            <!-- Start Contact Us -->
+            <div class="contact">
+                <div class="background-photo"></div>
+                <div class="overlay"></div>
+                <div class="container">
+                    <form action="{% url 'run-deeplearning' %}" method="post" style="width:45%;" id="main-form">
+                        {% csrf_token %}
+                        <p style="margin-top: 20px">Copy url you want to brows</p>
+                        <textarea id="myurl" name="myurl" placeholder="URL"></textarea>
+                        <div class="contact-by">
+                            <p>Choose how you want to get page information...</p>
+                            <p>Segmentation approach:</p>
+                            <input type="radio" name="approach" id="DL" value="DL" checked/>
+                            <label for="DL">Deep Learning</label>
+                            <input type="radio" name="approach" id="TR" value="TR"/>
+                            <label for="TR">Traditional</label>
+                            <p>Sumarization approach:</p>
+                            <input type="radio" name="sum-approach" id="Ab" value="Ab" checked/>
+                            <label for="Ab" style="margin-right: 92px;">Abstractive</label>
+                            <input type="radio" name="sum-approach" id="Ex" value="Ex"/>
+                            <label for="Ex">Extractive</label>
+                        </div>
+                        <input type="submit" value="Browse" id="browse" />
+                    </form>
+                </div>
+            </div>
+            <!-- End Contact Us -->
+        </div>
+        <!-- End Landing Page -->
+        <!-- Start About Us -->
+        <div class="container">
+            <div class="about-us">
+                <div class="info-box">
+                    <div class="section-title">
+                        <h2>About Us</h2>
+                        <p>
+                        A blind browser aims to provide a rich browsing experience for people who are visually 
+                        impaired or blind by dividing the existing web page and converting it into pieces,
+                        extracting the content of each block and describing this content. If it is textual content, 
+                        it is summarized and this description is converted into an audio clip, 
+                        in addition to allowing access to the total content that is also converted to Audio clip if requested.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End About Us -->
+        <!-- Start Footer -->
+        <div class="footer" style="padding: 0px; float:right;">
+            <div class="container">
+                <div class="social-media">
+                    <p>We Are <span>Blind Care</span> Agency</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer -->
+        <!-- Start Popup and Overlay -->
+        <div id="popup-overlay"></div>
+        <div class="contact" id = "popup" style="min-height: 443px !important; background-clip: text">
+            <div class="container">
+                <form action="#" method="post" id="popup-form" style="position: static;margin-top: 10px;">
+                    {% csrf_token %}
+                    <p style="margin-top: 20px">Enter number of clusters</p>
+                    <input id="num_clusters" type="number" name="num_clusters" placeholder="6 (photo-based) || 4 (text-based)">
+                    <div class="contact-by">
+                        <p>Algorithms were used to predict the number of clusters. Choose one of the numbers or enter a number from your suggestion.</p>
+                    </div>
+                    <div class="contact-by">
+                        <p>Choose your preferred webdriver to use in fetch information...</p>
+                        <input type="radio" name="driver" id="chrome" value="chrome" checked/>
+                        <label style="display: inline-grid; width: 9%;" for="chrome">Chrome</label>
+                        <input type="radio" name="driver" id="firefox" value="firefox"/>
+                        <label  style="display:inline-grid; width: 31%;"for="firefox">FireFox</label>
+                        <input type="radio" name="driver" id="edge" value="edge"/>
+                        <label for="edge">Edge</label>
+                    </div>
+                    <input type="submit" value="Send" />
+                </form>
+            </div>
+        </div>
+        <!-- End Popup and Overlay -->
+        <!--Start Spinner-->
+        <div id="spinner" class="spinner">
+            <div class="spinner-audio-waves">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <!--End Spinner--> 
+        <script src="{% static 'JS/master.js' %}"></script>
+    </body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    // jQuery function to handle the document ready event
+    $(document).ready(function() {
+       
+        // Event handler for form submission 
+        $('#main-form').on('submit', function(event) {
+            
+            // Prevent the default form submission behavior
+            event.preventDefault();
+            
+            // Get the selected approach and URL value from the form
+            const approach = $('input[name="approach"]:checked').val();
+            const myurl = $('#myurl').val();
+            const sumapproach = $('input[name="sum-approach"]:checked').val();
+            // Show the spinner and overlay while processing 
+            $('#spinner').show();
+            $('#popup-overlay').show();
+
+            // Check which approach is selected
+            if (approach == 'TR') {
+                
+                // If 'TR' (traditional) approach is selected, make an AJAX POST request
+                $.ajax({
+                    // HTTP method
+                    type: 'POST',
+                    
+                    // URL for the backend view handling the request
+                    url:  '{% url "run-findnumberofclusters" %}',
+
+                    // Expected data type from server
+                    dataType: "json",
+                    data: {
+                        // Pass the URL as data
+                        'myurl': myurl,
+                        // CSRF token for security
+                        'csrfmiddlewaretoken': '{{ csrf_token }}'
+                    },
+
+                    // On successful response
+                    success: function(response) {
+                        
+                        // Hide the spinner and overlay
+                        $('#spinner').hide();
+                        $('#popup-overlay').hide();
+                        
+                        // Log success message
+                        console.log("Success");
+
+                        // Extract results from the response
+                        const text = response['resulttext'];
+                        const img = response['resultimage'];
+                        
+                        // Update placeholder with the results
+                        $('#num_clusters').attr('placeholder', `${img} (photo-based) || ${text} (text-based)`);
+                        
+                        // Show the popup overlay and popup with results
+                        $('#popup-overlay').show();
+                        $('#popup').show();
+
+                    },
+                    // On error response
+                    error: function(xhr, status, error) {
+                        
+                        // Hide the spinner and overlay
+                        $('#spinner').hide();
+                        $('#popup-overlay').hide();
+
+                        // Log error message
+                        console.error('An error occurred:', error);
+                    }
+                });
+            } 
+            // If 'DEEPL' (deep learning) approach is selected, make a different AJAX POST request
+            else {
+                $.ajax({
+                    
+                    // HTTP method
+                    type: 'POST',
+                    
+                    // URL for the backend view handling the request
+                    url: '{% url "run-deeplearning" %}',
+                    data: {
+                    
+                        // Pass the URL as data
+                        'myurl': myurl,
+                        // Pass sumarization approach
+                        'sum-approach' : sumapproach,
+                        // CSRF token for security
+                        'csrfmiddlewaretoken': '{{ csrf_token }}'
+                    },
+                    
+                    // On successful response
+                    success: function(response) {
+                    
+                        // Hide the spinner and overlay
+                        $('#spinner').hide(); 
+                        $('#popup-overlay').hide();
+                    
+                        // Replace the entire body content with the response
+                        $('body').html(response);
+                    },
+                    
+                    // On error response
+                    error: function(xhr, status, error) {
+                        
+                        // Hide the spinner and overlay
+                        $('#spinner').hide(); 
+                        $('#popup-overlay').hide();
+                        
+                        // Log error message
+                        console.error('An error occurred:', error);
+                    }
+                });
+            }
+        });
+
+        // Event handler for the form submission inside the popup
+        $('#popup-form').on('submit', function(event) {
+            
+            // Prevent the default form submission behavior
+            event.preventDefault();
+            
+            // Extract form values
+            const url = $('#myurl').val();
+            const numClusters = $('#num_clusters').val();
+            const driver = $('input[name="driver"]:checked').val();
+            const sumapproach = $('input[name="sum-approach"]:checked').val();
+
+            // Hide the popup and overlay
+            $('#popup').hide();
+            $('#popup-overlay').hide();
+
+            // Show the spinner and overlay to indicate processing
+            $('#spinner').show();
+            $('#popup-overlay').show();
+
+            // Make an AJAX request to process the data
+            $.ajax({
+
+                // HTTP method for the request
+                type: 'POST',
+                
+                // URL for the backend view handling the traditional approach
+                url:  '{% url "run-traditional" %}',  // Change this to server-side URL handling the traditional approach
+
+                data: {
+                    
+                    // Pass the URL input value
+                    'myurl': url,
+                    
+                    // Pass the number of clusters input value
+                    'num_clusters': numClusters,
+                    
+                    // Pass the selected driver value
+                    'driver':driver,
+
+                    // Pass sumarization approach
+                    'sum-approach' : sumapproach,
+
+
+                    // CSRF token for security
+                    'csrfmiddlewaretoken': '{{ csrf_token }}'
+                },
+                
+                // On successful response from the server
+                success: function(response) {
+                    
+                    // Hide the spinner, overlay and popup 
+                    $('#spinner').hide();
+                    $('#popup').hide();
+                    $('#popup-overlay').hide();
+                    
+                    // Replace the entire body content with the server response
+                    $('body').html(response);
+                },
+                
+                // On error response from the server
+                error: function(xhr, status, error) {
+
+                    // Hide the spinner and overlay
+                    $('#spinner').hide();
+                    $('#popup-overlay').hide();
+
+                    // Log the error message
+                    console.error('An error occurred:', error);
+                }
+            });
+        });
+        
+        // Event handler for clicking on the popup overlay
+        $('#popup-overlay').on('click', function() {
+                $('#popup').hide();
+                $('#popup-overlay').hide();
+        });
+    });
+</script>
+
+<style>
+    #popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+    }
+    #popup-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+    }
+    .spinner {
+        display: none; 
+        width: 70px;
+        height: 70px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1001; 
+    }
+
+    .spinner-audio-waves {
+        display: flex;
+        flex-wrap:  wrap;
+        gap: 5px;
+    }
+
+    .spinner-audio-waves .line {
+        width: 5px;
+        height: 10px;
+        background-color: #00800a;
+        border-radius: 50em;
+        animation: spinner-audio-waves 0.9s alternate infinite linear;
+    }
+
+    .spinner-audio-waves .line:nth-child(2),
+    .spinner-audio-waves .line:nth-child(6) {
+        animation-delay: 0.15s;
+    }
+
+    .spinner-audio-waves .line:nth-child(3),
+    .spinner-audio-waves .line:nth-child(5) {
+        animation-delay: 0.3s;
+    }
+
+    .spinner-audio-waves .line:nth-child(4) {
+        animation-delay: 0.45s;
+    }
+
+    @keyframes spinner-audio-waves {
+        to {
+            height: 30px;
+        }
+    }
+</style>
