@@ -35,3 +35,21 @@ A set of proposed algorithms for segmenting web pages(Clustering, SAM(Segment An
 - jQuery
 - HTML
 - CSS
+## Requirements
+- download "sam_vit_h_4b8939.pth" from:
+https://huggingface.co/spaces/abhishek/StableSAM/blob/main/sam_vit_h_4b8939.pth
+and put it in code folder
+- download "segment-anything" folder from: 
+https://github.com/facebookresearch/segment-anything
+and put it in code/myapp/scripts/deeplearning
+- download "sam2" and "sam2_configs" folders from: 
+https://github.com/facebookresearch/segment-anything-2
+and put it in code/myapp/scripts/SAM2/segmentation
+- download "sam2_hiera_large.pt" from:
+https://huggingface.co/spaces/SkalskiP/florence-sam/blob/main/checkpoints/sam2_hiera_large.pt
+and put it in code/myapp/scripts/SAM2/segmentation
+- download "chrome-win" from: 
+https://download-chromium.appspot.com/
+and put it in code
+- API_KEY in each ScreenshotFetcher class
+https://api.apiflash.com/
