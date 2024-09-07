@@ -1,0 +1,10 @@
+[
+    {
+        "Dataset": "results-random-sam.json",
+        "Total blocks": 749,
+        "Correct blocks": 62,
+        "Final Precision": 0.4732824427480916,
+        "Final Recall": 0.08707865168539326,
+        "Final F1Score": 0.14709371293001186
+    }
+]
