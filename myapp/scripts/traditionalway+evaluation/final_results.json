@@ -1,0 +1,18 @@
+[
+    {
+        "Dataset": "results-popular.json",
+        "Total blocks": 1460,
+        "Correct blocks": 396,
+        "Final Precision": 0.38823529411764707,
+        "Final Recall": 0.4129301355578728,
+        "Final F1Score": 0.4002021222839818
+    },
+    {
+        "Dataset": "results-random.json",
+        "Total blocks": 1286,
+        "Correct blocks": 512,
+        "Final Precision": 0.5759280089988752,
+        "Final Recall": 0.47895229186155286,
+        "Final F1Score": 0.5229826353421859
+    }
+]
