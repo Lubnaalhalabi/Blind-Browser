@@ -1,0 +1,93 @@
+[
+    {
+        "tagName": "div",
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1519.199951171875,
+        "height": 30.600006103515625,
+        "space": 46487.527778320014,
+        "xCentre": 759.5999755859375,
+        "yCentre": 15.300003051757812,
+        "text": "\n\n\n\nEmail Us\n\n\n",
+        "seg": "true",
+        "xPath": "/html/body/div[2]"
+    },
+    {
+        "tagName": "img",
+        "x": 289.6000061035156,
+        "y": 70.60000610351562,
+        "width": 260.0,
+        "height": 56.0,
+        "space": 14560.0,
+        "xCentre": 419.6000061035156,
+        "yCentre": 98.60000610351562,
+        "text": "",
+        "seg": "true",
+        "xPath": "/html/body/div[3]/div/div[1]/div[1]/h1/a/img"
+    },
+    {
+        "tagName": "div",
+        "x": 290.3999938964844,
+        "y": 201.60000610351562,
+        "width": 81.98333740234375,
+        "height": 16.899993896484375,
+        "space": 1385.5179017130286,
+        "xCentre": 331.39166259765625,
+        "yCentre": 210.0500030517578,
+        "text": "\nHomeWelcome\n",
+        "seg": "true",
+        "xPath": "/html/body/div[3]/div/div[2]/div[1]/ul/li[1]/div"
+    },
+    {
+        "tagName": "div",
+        "x": 0.0,
+        "y": 260.29998779296875,
+        "width": 1519.199951171875,
+        "height": 424.0,
+        "space": 644140.779296875,
+        "xCentre": 759.5999755859375,
+        "yCentre": 472.29998779296875,
+        "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n2\n\n\n3\n\n\n\n\nPrevious\n\n\nNext\n\n\n12345PreviousNext\n\n\n\n",
+        "seg": "true",
+        "xPath": "/html/body/div[4]"
+    },
+    {
+        "tagName": "div",
+        "x": 279.6000061035156,
+        "y": 684.2999877929688,
+        "width": 960.0,
+        "height": 264.7833251953125,
+        "space": 254191.9921875,
+        "xCentre": 759.6000061035156,
+        "yCentre": 816.691650390625,
+        "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n                2013 Family Camp Registration\n              \n\n\n\n\n\n\n\n\n\n\n\n\n\n                Jr Camp Pre-Registration\n              \n\n\n\n\n\n\n\n\n\n\n\n\n\n                Missions\n              \n\n\n\n\n",
+        "seg": "true",
+        "xPath": "/html/body/div[5]/div"
+    },
+    {
+        "tagName": "div",
+        "x": 0.0,
+        "y": 989.0833129882812,
+        "width": 1519.199951171875,
+        "height": 318.6000061035156,
+        "space": 484017.11371582,
+        "xCentre": 759.5999755859375,
+        "yCentre": 1148.383316040039,
+        "text": "\n\n\n\n\n\n\n\n\n              Service Times\n            \n\n              Sunday School: 9:45am\n            \n\n              Sunday Worship: 11:00am\n            \n\n              Sunday Evening: 6:00pm\n            \n\n              Midweek: Wed. 7:00pm\n            \n\n\n\n\n              Directions\n            \n\n6367 Gateway Drive\n                Grand Forks, ND 58203\n                Phone: 701.746.7516\n              \nBible Baptist Church is located on Gateway Drive next to the John Deere Dealership, west on Hwy 2.\n              \n\n\n\n\n\n\n\n\n\n\n\n",
+        "seg": "true",
+        "xPath": "/html/body/div[6]"
+    },
+    {
+        "tagName": "div",
+        "x": 0.0,
+        "y": 1307.683349609375,
+        "width": 1519.199951171875,
+        "height": 60.600006103515625,
+        "space": 92063.52631347626,
+        "xCentre": 759.5999755859375,
+        "yCentre": 1337.9833526611328,
+        "text": "\n\n\n\n\u00c2\u00a9 2013 Bible Baptist Church\n\n\n",
+        "seg": "true",
+        "xPath": "/html/body/div[7]"
+    }
+]
