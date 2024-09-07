@@ -1,0 +1,702 @@
+[
+    {
+        "id": 0,
+        "box": [
+            [
+                200,
+                0
+            ],
+            [
+                1719,
+                0
+            ],
+            [
+                1719,
+                56
+            ],
+            [
+                200,
+                56
+            ]
+        ],
+        "text": "\nSkip to main content\n\n\n\n\n\n\nStack Overflow\n\n\n\nAbout\n\n\n\n\t\t\t\t\t\tProducts\n\t\t\t\t\t\n\n\nOverflowAI\n\n\n\n\n\n\n\nStack Overflow for Teams\nWhere developers & technologists share private knowledge with coworkers\n\n\n\n\nAdvertising & Talent\nReach devs & technologists worldwide about your product, service or employer brand\n\n\n\n\nOverflowAI\nGenAI features for Teams\n\n\n\n\nOverflowAPI\nTrain & fine-tune LLMs\n\n\n\n\nLabs\nThe future of collective knowledge sharing\n\n\n\nAbout the company\nVisit the blog\n\n\n\n\n\n\n\n\n\n\n\n\nLoading\u2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncurrent community\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n            Stack Overflow\n        \n\n\n\nhelp\nchat\n\n\n\n\n\n\n\n\n\n            Meta Stack Overflow\n        \n\n\n\n\n\n\nyour communities            \n\n\n\nSign up or log in to customize your list.                \n\n\nmore stack exchange communities\n\ncompany blog\n\n\n\n\n\n\n\n\nLog in\n\nSign up\n\n\n\n",
+        "summary": " Where developers & technologists share private knowledge with coworkers? We need Stack Overflow for Teams? Stack Exchange communities? We want to know how Stack Exchange works . We want Stack Exchange to be the world's most successful social network .",
+        "description": "the audio editor app",
+        "path": "myapp\\static\\cropped_images_tr\\0.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\0.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\0.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\0.mp3"
+    },
+    {
+        "id": 1,
+        "box": [
+            [
+                516,
+                407
+            ],
+            [
+                1580,
+                407
+            ],
+            [
+                1580,
+                456
+            ],
+            [
+                516,
+                456
+            ]
+        ],
+        "text": "\n\n            Services for companies of all shapes & sizes\n        \n\n            Full business solutions\n        \n",
+        "summary": " Services for companies of all shapes & sizes",
+        "description": "a white background with a gold frame and a black and white background with a gold frame",
+        "path": "myapp\\static\\cropped_images_tr\\1.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\1.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\1.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\1.mp3"
+    },
+    {
+        "id": 2,
+        "box": [
+            [
+                516,
+                471
+            ],
+            [
+                1580,
+                471
+            ],
+            [
+                1580,
+                687
+            ],
+            [
+                516,
+                687
+            ]
+        ],
+        "text": "\n\n\nWhere developers and technologists share private knowledge with coworkers.\n\n\n                    Explore Teams\n\n\n                    Try for free\n\n\n\n\n\n\n",
+        "summary": " Where developers and technologists share private knowledge with coworkers .",
+        "description": "the screenshote app on the ipad",
+        "path": "myapp\\static\\cropped_images_tr\\2.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\2.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\2.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\2.mp3"
+    },
+    {
+        "id": 3,
+        "box": [
+            [
+                516,
+                711
+            ],
+            [
+                1580,
+                711
+            ],
+            [
+                1580,
+                927
+            ],
+            [
+                516,
+                927
+            ]
+        ],
+        "text": "\n\n\nNow available! A suite of GenAI tools for Stack Overflow for Teams that helps connect employees to knowledge faster.\n\n\n                    Supercharge your Team\n\n\n\n\n\n\n",
+        "summary": " A suite of GenAI tools for Stack Overflow for Teams that helps connect employees to knowledge faster",
+        "description": "the screen is open and shows the text on the screen",
+        "path": "myapp\\static\\cropped_images_tr\\3.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\3.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\3.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\3.mp3"
+    },
+    {
+        "id": 4,
+        "box": [
+            [
+                516,
+                1237
+            ],
+            [
+                1580,
+                1237
+            ],
+            [
+                1580,
+                1286
+            ],
+            [
+                516,
+                1286
+            ]
+        ],
+        "text": "\n\n            Explore technical topics and other disciplines across 170+ Q&A communities\n        \n\n            Explore the network\n        \n",
+        "summary": " Explore technical topics and other disciplines across 170+ Q",
+        "description": "a white background with a black and white wave pattern",
+        "path": "myapp\\static\\cropped_images_tr\\4.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\4.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\4.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\4.mp3"
+    },
+    {
+        "id": 5,
+        "box": [
+            [
+                508,
+                1626
+            ],
+            [
+                1588,
+                1626
+            ],
+            [
+                1588,
+                1842
+            ],
+            [
+                508,
+                1842
+            ]
+        ],
+        "text": "\n\n\n\n\n\n\nNetwork Engineering\n\n\n\n\n\n\n\n\n\n\n\nAsk Different\n\n\n\n\n\n\n\n\nSuper User\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatabase Administrators\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuantum Computing\n\n\n\n\n\n\nGame Development\n\n\n\n\nArtificial Intelligence\n\n\n",
+        "summary": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0-\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+        "description": "the logo for the new line of logos",
+        "path": "myapp\\static\\cropped_images_tr\\5.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\5.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\5.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\5.mp3"
+    },
+    {
+        "id": 6,
+        "box": [
+            [
+                340,
+                2276
+            ],
+            [
+                626,
+                2276
+            ],
+            [
+                626,
+                2705
+            ],
+            [
+                340,
+                2705
+            ]
+        ],
+        "text": "\n\n\n\t\t\t\t\t\tCheck out our FAQ about how Stack Overflow works.\n\t\t\t\t\t\n\n\t\t\t\t\t\tVisit Help Center\n\n",
+        "summary": " Check out our FAQ about how Stack Overflow",
+        "description": "a screenshot of a computer with the text, ` check out our fautt '",
+        "path": "myapp\\static\\cropped_images_tr\\6.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\6.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\6.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\6.mp3"
+    },
+    {
+        "id": 7,
+        "box": [
+            [
+                658,
+                2276
+            ],
+            [
+                944,
+                2276
+            ],
+            [
+                944,
+                2705
+            ],
+            [
+                658,
+                2705
+            ]
+        ],
+        "text": "\n\n\n\t\t\t\t\t\tTo share feedback about our platform, please visit our meta community.\n\t\t\t\t\t\n\n\t\t\t\t\t\tVisit Meta\n\n",
+        "summary": " To share feedback about our platform, please visit our",
+        "description": "a screenshot of a white background with a black and orange text that reads, ` ` `",
+        "path": "myapp\\static\\cropped_images_tr\\7.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\7.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\7.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\7.mp3"
+    },
+    {
+        "id": 8,
+        "box": [
+            [
+                976,
+                2276
+            ],
+            [
+                1262,
+                2276
+            ],
+            [
+                1262,
+                2705
+            ],
+            [
+                976,
+                2705
+            ]
+        ],
+        "text": "\n\n\n\t\t\t\t\t\tLooking for help with  Stack Overflow for Teams? \n\n\n\t\t\t\t\t\tVisit Teams Help Center\n\n",
+        "summary": " Looking for help with Stack Overflow for Teams",
+        "description": "a logo for a team",
+        "path": "myapp\\static\\cropped_images_tr\\8.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\8.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\8.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\8.mp3"
+    },
+    {
+        "id": 9,
+        "box": [
+            [
+                1294,
+                2276
+            ],
+            [
+                1580,
+                2276
+            ],
+            [
+                1580,
+                2705
+            ],
+            [
+                1294,
+                2705
+            ]
+        ],
+        "text": "\n\n\n\t\t\t\t\t\tFind legal documents for our products and services.\n\t\t\t\t\t\n\n\t\t\t\t\t\tVisit Legal\n\n",
+        "summary": " Find legal documents for our products and",
+        "description": "a white background with a black and white logo",
+        "path": "myapp\\static\\cropped_images_tr\\9.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\9.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\9.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\9.mp3"
+    },
+    {
+        "id": 10,
+        "box": [
+            [
+                340,
+                2726
+            ],
+            [
+                616,
+                2726
+            ],
+            [
+                616,
+                3016
+            ],
+            [
+                340,
+                3016
+            ]
+        ],
+        "text": "\n\n\nStack Overflow\n\nQuestions\nHelp\nChat\n\n",
+        "summary": " Questions and",
+        "description": "the text on the screen reads ` ` ` ` ` ` ` ` ` ` ` ` `",
+        "path": "myapp\\static\\cropped_images_tr\\10.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\10.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\10.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\10.mp3"
+    },
+    {
+        "id": 11,
+        "box": [
+            [
+                1255,
+                2738
+            ],
+            [
+                1579,
+                2738
+            ],
+            [
+                1579,
+                3016
+            ],
+            [
+                1255,
+                3016
+            ]
+        ],
+        "text": "\n\nBlog\nFacebook\nTwitter\nLinkedIn\nInstagram\n\n\nSite design / logo \u00a9 2024 Stack Exchange Inc; \nuser contributions licensed under \nCC BY-SA\n. \nrev\u00a02024.8.22.14349\n\n",
+        "summary": " Site design / logo \u00a9 2024 Stack Exchange Inc; ribute contributions licensed under CC BY-SA.",
+        "description": "the screenshoter's screen with the text, ` ` '",
+        "path": "myapp\\static\\cropped_images_tr\\11.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\11.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\11.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\11.mp3"
+    },
+    {
+        "id": 12,
+        "box": [
+            [
+                328,
+                56
+            ],
+            [
+                492,
+                56
+            ],
+            [
+                492,
+                686
+            ],
+            [
+                328,
+                686
+            ]
+        ],
+        "text": "\n\n\n\n\n\n\n\n Home\n\n\n\n\n\n\n Questions\n\n\n\n\n\n\n Tags\n\n\n\n\n\n\n\n Users\n\n\n\n\n\n\n Companies\n\n\n\n\n\nLabs\n\n\n\n\n\n\n\n\n Jobs\n\n\n\n\n\n\n Discussions\n\n\n\n\n\n\nCollectives\n\n\n\n\n\n\n\n\n                                        Communities for your favorite technologies.  Explore all Collectives\n\n\n\n\n\nTeams\n\n\n\n\n\nNow available on Stack Overflow for Teams! AI features where you work: search, IDE, and chat.\n        \nLearn more\nExplore Teams\n\n\n\n\nTeams\n\n\n\n\n\n\n\n            Ask questions, find answers and collaborate at work with Stack Overflow for Teams.\n            Explore Teams\n\n\n\n\n",
+        "summary": " Ask questions, find answers and collaborate at work with Stack Overflow for Teams . Explore all Collectives and all your favorite technologies .",
+        "description": "a screenshote screenshote screenshote screenshote screenshote screenshote",
+        "path": "myapp\\static\\cropped_images_tr\\12.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\12.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\12.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\12.mp3"
+    },
+    {
+        "id": 13,
+        "box": [
+            [
+                508,
+                1302
+            ],
+            [
+                832,
+                1302
+            ],
+            [
+                832,
+                1626
+            ],
+            [
+                508,
+                1626
+            ]
+        ],
+        "text": "\n\n\n\n\nYou are here!\n\n\n\n",
+        "summary": " You are",
+        "description": "a screenshot of a computer screen with the text you are here",
+        "path": "myapp\\static\\cropped_images_tr\\13.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\13.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\13.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\13.mp3"
+    },
+    {
+        "id": 14,
+        "box": [
+            [
+                832,
+                1302
+            ],
+            [
+                1048,
+                1302
+            ],
+            [
+                1048,
+                1626
+            ],
+            [
+                832,
+                1626
+            ]
+        ],
+        "text": "\n\n\n\n\nSoftware Engineering\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnix & Linux\n\n\n",
+        "summary": " The most",
+        "description": "the logo for the new app",
+        "path": "myapp\\static\\cropped_images_tr\\14.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\14.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\14.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\14.mp3"
+    },
+    {
+        "id": 15,
+        "box": [
+            [
+                1048,
+                1302
+            ],
+            [
+                1264,
+                1302
+            ],
+            [
+                1264,
+                1626
+            ],
+            [
+                1048,
+                1626
+            ]
+        ],
+        "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAsk Ubuntu\n",
+        "summary": " Ask Ubuntu",
+        "description": "the logo for ask",
+        "path": "myapp\\static\\cropped_images_tr\\15.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\15.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\15.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\15.mp3"
+    },
+    {
+        "id": 16,
+        "box": [
+            [
+                1264,
+                1302
+            ],
+            [
+                1588,
+                1302
+            ],
+            [
+                1588,
+                1626
+            ],
+            [
+                1264,
+                1626
+            ]
+        ],
+        "text": "\n\n\n\n\nServer Fault\n",
+        "summary": " The Fault",
+        "description": "a screenshot of a square with a blue and white recal",
+        "path": "myapp\\static\\cropped_images_tr\\16.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\16.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\16.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\16.mp3"
+    },
+    {
+        "id": 17,
+        "box": [
+            [
+                564,
+                104
+            ],
+            [
+                1085,
+                104
+            ],
+            [
+                1085,
+                375
+            ],
+            [
+                564,
+                375
+            ]
+        ],
+        "text": "\n\n            Every developer has a tab open to Stack Overflow.\n        \nFor over 15 years we\u2019ve been the Q&A platform of choice that millions of people visit every month to ask questions, learn, and share technical knowledge.\n\nLog in\nSign up\n\n                Visit the community\n                \n\n\n",
+        "summary": " Every developer has a tab open to Stack Overflow to ask questions, learn, and share technical knowledge . We've been the Q&A platform of choice for over 15 years .",
+        "description": "a screenshot of a person with a text that reads, ` every developer has a potato potato",
+        "path": "myapp\\static\\cropped_images_tr\\17.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\17.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\17.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\17.mp3"
+    },
+    {
+        "id": 18,
+        "box": [
+            [
+                1085,
+                130
+            ],
+            [
+                1532,
+                130
+            ],
+            [
+                1532,
+                374
+            ],
+            [
+                1085,
+                374
+            ]
+        ],
+        "text": "\n\n",
+        "summary": "",
+        "description": "a man sitting at a desk with his laptop and a dog on the table",
+        "path": "myapp\\static\\cropped_images_tr\\18.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\18.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\18.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\18.mp3"
+    },
+    {
+        "id": 19,
+        "box": [
+            [
+                516,
+                951
+            ],
+            [
+                1036,
+                951
+            ],
+            [
+                1036,
+                1189
+            ],
+            [
+                516,
+                1189
+            ]
+        ],
+        "text": "\n\nReach the world\u2019s largest audience of developers and technologists.\n\n\n                    Advertising solutions\n\n\n                    Build your employer brand\n\n\n",
+        "summary": " The world\u2019s largest audience of developers and technologists",
+        "description": "a screenshot of a person on a cell",
+        "path": "myapp\\static\\cropped_images_tr\\19.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\19.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\19.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\19.mp3"
+    },
+    {
+        "id": 20,
+        "box": [
+            [
+                1060,
+                951
+            ],
+            [
+                1580,
+                951
+            ],
+            [
+                1580,
+                1189
+            ],
+            [
+                1060,
+                1189
+            ]
+        ],
+        "text": "\n\nA subscription-based API service that provides continuous access to Stack Overflow\u2019s public dataset to train and fine-tune large language models.\n\n\n                    API solutions for business\n\n\n",
+        "summary": " A subscription-based API service that provides continuous access to Stack Overflow\u2019s public dataset to train",
+        "description": "a screenshot of a text message that reads ` ` ` ` ` ` ` ` ` `",
+        "path": "myapp\\static\\cropped_images_tr\\20.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\20.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\20.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\20.mp3"
+    },
+    {
+        "id": 21,
+        "box": [
+            [
+                516,
+                1938
+            ],
+            [
+                1580,
+                1938
+            ],
+            [
+                1580,
+                2188
+            ],
+            [
+                516,
+                2188
+            ]
+        ],
+        "text": "\n        Work here\n    \n\n\nJoin our mission to help empower the world to develop technology through collective knowledge.\n\n\n                    Careers at Stack Overflow\n\n\n\n\n\n\n",
+        "summary": " Work here at Stack Overflow . Join our mission to help empower the world to develop",
+        "description": "a screenshot of a cartoon character",
+        "path": "myapp\\static\\cropped_images_tr\\21.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\21.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\21.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\21.mp3"
+    },
+    {
+        "id": 22,
+        "box": [
+            [
+                616,
+                2738
+            ],
+            [
+                783,
+                2738
+            ],
+            [
+                783,
+                3016
+            ],
+            [
+                616,
+                3016
+            ]
+        ],
+        "text": "\nProducts\n\nTeams\nAdvertising\nCollectives\nTalent\n\n",
+        "summary": " The products",
+        "description": "the menu for the menu menu",
+        "path": "myapp\\static\\cropped_images_tr\\22.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\22.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\22.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\22.mp3"
+    },
+    {
+        "id": 23,
+        "box": [
+            [
+                783,
+                2738
+            ],
+            [
+                975,
+                2738
+            ],
+            [
+                975,
+                3016
+            ],
+            [
+                783,
+                3016
+            ]
+        ],
+        "text": "\nCompany\n\nAbout\nPress\nWork Here\nLegal\nPrivacy Policy\nTerms of Service\nContact Us\nCookie Settings\nCookie Policy\n\n",
+        "summary": " Privacy Policy and Terms of Service are available at Cookie Shop . Cookie Policy",
+        "description": "the menu for the menu menu menu menu menu menu menu menu menu menu menu menu menu menu menu",
+        "path": "myapp\\static\\cropped_images_tr\\23.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\23.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\23.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\23.mp3"
+    },
+    {
+        "id": 24,
+        "box": [
+            [
+                975,
+                2738
+            ],
+            [
+                1255,
+                2738
+            ],
+            [
+                1255,
+                3016
+            ],
+            [
+                975,
+                3016
+            ]
+        ],
+        "text": "\n\nStack Exchange Network\n\n\n\n                                    Technology\n                                \n\n\n\n                                    Culture & recreation\n                                \n\n\n\n                                    Life & arts\n                                \n\n\n\n                                    Science\n                                \n\n\n\n                                    Professional\n                                \n\n\n\n                                    Business\n                                \n\n\n\n                                    API\n                                \n\n\n\n                                    Data\n                                \n\n\n\n",
+        "summary": "  \u00a0    The Internet is the world's",
+        "description": "the table of contents for the event",
+        "path": "myapp\\static\\cropped_images_tr\\24.png",
+        "audio_path": "myapp\\static\\cropped_audios_tr\\24.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary_tr\\24.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description_tr\\24.mp3"
+    }
+]

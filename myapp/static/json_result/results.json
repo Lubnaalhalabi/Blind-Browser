@@ -1,0 +1,926 @@
+[
+    {
+        "id": 1,
+        "box": [
+            [
+                4899,
+                924
+            ],
+            [
+                5026,
+                924
+            ],
+            [
+                5026,
+                988
+            ],
+            [
+                4899,
+                988
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "the logo for the new app",
+        "path": "myapp\\static\\cropped_images\\1.png",
+        "audio_path": "myapp\\static\\cropped_audios\\1.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\1.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\1.mp3"
+    },
+    {
+        "id": 2,
+        "box": [
+            [
+                2684,
+                938
+            ],
+            [
+                2757,
+                938
+            ],
+            [
+                2757,
+                969
+            ],
+            [
+                2684,
+                969
+            ]
+        ],
+        "text": "ctay\n",
+        "summary": "",
+        "description": "the logo for the new website",
+        "path": "myapp\\static\\cropped_images\\2.png",
+        "audio_path": "myapp\\static\\cropped_audios\\2.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\2.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\2.mp3"
+    },
+    {
+        "id": 3,
+        "box": [
+            [
+                2895,
+                950
+            ],
+            [
+                2928,
+                950
+            ],
+            [
+                2928,
+                966
+            ],
+            [
+                2895,
+                966
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "a black and white photo of a person with a black and white background",
+        "path": "myapp\\static\\cropped_images\\3.png",
+        "audio_path": "myapp\\static\\cropped_audios\\3.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\3.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\3.mp3"
+    },
+    {
+        "id": 4,
+        "box": [
+            [
+                2826,
+                950
+            ],
+            [
+                2844,
+                950
+            ],
+            [
+                2844,
+                963
+            ],
+            [
+                2826,
+                963
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "a black and white photo of a square object",
+        "path": "myapp\\static\\cropped_images\\4.png",
+        "audio_path": "myapp\\static\\cropped_audios\\4.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\4.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\4.mp3"
+    },
+    {
+        "id": 5,
+        "box": [
+            [
+                3130,
+                950
+            ],
+            [
+                3196,
+                950
+            ],
+            [
+                3196,
+                965
+            ],
+            [
+                3130,
+                965
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "a white and black striped background",
+        "path": "myapp\\static\\cropped_images\\5.png",
+        "audio_path": "myapp\\static\\cropped_audios\\5.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\5.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\5.mp3"
+    },
+    {
+        "id": 6,
+        "box": [
+            [
+                3031,
+                950
+            ],
+            [
+                3042,
+                950
+            ],
+            [
+                3042,
+                964
+            ],
+            [
+                3031,
+                964
+            ]
+        ],
+        "text": "rT\n",
+        "summary": "",
+        "description": "a white and black background with a blur effect",
+        "path": "myapp\\static\\cropped_images\\6.png",
+        "audio_path": "myapp\\static\\cropped_audios\\6.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\6.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\6.mp3"
+    },
+    {
+        "id": 7,
+        "box": [
+            [
+                4851,
+                951
+            ],
+            [
+                4862,
+                951
+            ],
+            [
+                4862,
+                965
+            ],
+            [
+                4851,
+                965
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "a blury background with a blur effect",
+        "path": "myapp\\static\\cropped_images\\7.png",
+        "audio_path": "myapp\\static\\cropped_audios\\7.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\7.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\7.mp3"
+    },
+    {
+        "id": 8,
+        "box": [
+            [
+                3280,
+                952
+            ],
+            [
+                3320,
+                952
+            ],
+            [
+                3320,
+                965
+            ],
+            [
+                3280,
+                965
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "a white background with a black and white stripe",
+        "path": "myapp\\static\\cropped_images\\8.png",
+        "audio_path": "myapp\\static\\cropped_audios\\8.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\8.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\8.mp3"
+    },
+    {
+        "id": 9,
+        "box": [
+            [
+                3507,
+                952
+            ],
+            [
+                3518,
+                952
+            ],
+            [
+                3518,
+                965
+            ],
+            [
+                3507,
+                965
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "a white and black background with a blur effect",
+        "path": "myapp\\static\\cropped_images\\9.png",
+        "audio_path": "myapp\\static\\cropped_audios\\9.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\9.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\9.mp3"
+    },
+    {
+        "id": 10,
+        "box": [
+            [
+                2657,
+                1040
+            ],
+            [
+                2950,
+                1040
+            ],
+            [
+                2950,
+                1266
+            ],
+            [
+                2657,
+                1266
+            ]
+        ],
+        "text": "fe Home\n\n[3 Questions\n\n@ Tags\n",
+        "summary": " Feulnerably",
+        "description": "a screenshote texting message with the text home",
+        "path": "myapp\\static\\cropped_images\\10.png",
+        "audio_path": "myapp\\static\\cropped_audios\\10.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\10.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\10.mp3"
+    },
+    {
+        "id": 11,
+        "box": [
+            [
+                2655,
+                1146
+            ],
+            [
+                2669,
+                1146
+            ],
+            [
+                2669,
+                1158
+            ],
+            [
+                2655,
+                1158
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "a black and white photo of a man in a suit",
+        "path": "myapp\\static\\cropped_images\\11.png",
+        "audio_path": "myapp\\static\\cropped_audios\\11.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\11.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\11.mp3"
+    },
+    {
+        "id": 12,
+        "box": [
+            [
+                2659,
+                1293
+            ],
+            [
+                2843,
+                1293
+            ],
+            [
+                2843,
+                1436
+            ],
+            [
+                2659,
+                1436
+            ]
+        ],
+        "text": "\u00a32 Users\n\nFa Companies\n",
+        "summary": " Companies like",
+        "description": "the logo for the company",
+        "path": "myapp\\static\\cropped_images\\12.png",
+        "audio_path": "myapp\\static\\cropped_audios\\12.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\12.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\12.mp3"
+    },
+    {
+        "id": 13,
+        "box": [
+            [
+                2680,
+                1476
+            ],
+            [
+                2706,
+                1476
+            ],
+            [
+                2706,
+                1493
+            ],
+            [
+                2680,
+                1493
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "a black and white photo of a number of numbers",
+        "path": "myapp\\static\\cropped_images\\13.png",
+        "audio_path": "myapp\\static\\cropped_audios\\13.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\13.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\13.mp3"
+    },
+    {
+        "id": 14,
+        "box": [
+            [
+                2903,
+                1480
+            ],
+            [
+                2927,
+                1480
+            ],
+            [
+                2927,
+                1493
+            ],
+            [
+                2903,
+                1493
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "a cross on a white background",
+        "path": "myapp\\static\\cropped_images\\14.png",
+        "audio_path": "myapp\\static\\cropped_audios\\14.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\14.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\14.mp3"
+    },
+    {
+        "id": 15,
+        "box": [
+            [
+                2646,
+                1090
+            ],
+            [
+                5026,
+                1090
+            ],
+            [
+                5026,
+                2257
+            ],
+            [
+                2646,
+                2257
+            ]
+        ],
+        "text": "[9 Questions\n\n@ Tags\n\n42 Users\n\nfa Companies\n\nLABS ti)\n\n\u00a9 -0bs\n\n4) Discussions\n\nCOLLECTIVES +\n\nCommunities for your favorite\ntechnologies. Explore all\nCollectives\n\nTEAMS\n\nS overflow\u00a3W\n\nNow available on Stack\nOverflow for Teams! A!\nfeatures where you work:\nsearch, IDE, and chat.\n\nEvery has a\n\ntab open to Stack Overflow.\n\nFor over 15 years we've been the Q&A platform of choice that\nmillions of people visit every month to ask questions, learn, and\nshare technical knowledge.\n\nVisit the community >\n\nServices for companies of all shapes & sizes\n\n\"4\n=> stackoverflow\nFOR TEAMS\n\nWhere developers and technologists share private knowledge\nwith coworkers.\n\nTry for free >\n\n>\ni} | FORTEAMS\n\naS Your Team\n\ncowrenr\nOuessons\n@ Attctes\n\u00a9 FerYou\n\n@ Cotecirs\n\nFull business solutions\n\nWelcome back.\n\nReminder to accept an answer for New Technologies for Tag Location Sey\nConsus Tool\n\n88 New comment on Does Pylon fave a termary conditional operator? sires 4\n\n12) Mark Chavez thinks you may be able to answer How can | remove a Steed\nspacific tem from an array in JavaScript? \u00b0\n",
+        "summary": " Stack Overflow for Teams is now available on Stack overflow for teams . Stack Overflows is a Q&A platform that has been open for over 15 years .",
+        "description": "a screenshote screen with a screenshote page on it",
+        "path": "myapp\\static\\cropped_images\\15.png",
+        "audio_path": "myapp\\static\\cropped_audios\\15.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\15.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\15.mp3"
+    },
+    {
+        "id": 16,
+        "box": [
+            [
+                2997,
+                2256
+            ],
+            [
+                5026,
+                2256
+            ],
+            [
+                5026,
+                2678
+            ],
+            [
+                2997,
+                2678
+            ]
+        ],
+        "text": "SS) overflow i)\n\nNow available! A suite of GenAl tools for Stack Overflow for Teams that ): ma be |\nhelps connect employees to knowledge faster.\n\n",
+        "summary": " A suite of GenAl tools for Stack Overflow for Teams that helps connect employees to knowledge faster are now available .",
+        "description": "the website for the new website",
+        "path": "myapp\\static\\cropped_images\\16.png",
+        "audio_path": "myapp\\static\\cropped_audios\\16.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\16.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\16.mp3"
+    },
+    {
+        "id": 17,
+        "box": [
+            [
+                2824,
+                2269
+            ],
+            [
+                2863,
+                2269
+            ],
+            [
+                2863,
+                2280
+            ],
+            [
+                2824,
+                2280
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "a white and black striped background",
+        "path": "myapp\\static\\cropped_images\\17.png",
+        "audio_path": "myapp\\static\\cropped_audios\\17.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\17.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\17.mp3"
+    },
+    {
+        "id": 18,
+        "box": [
+            [
+                4015,
+                2704
+            ],
+            [
+                5026,
+                2704
+            ],
+            [
+                5026,
+                3183
+            ],
+            [
+                4015,
+                3183
+            ]
+        ],
+        "text": "2 overflow {FAP!\n\nA subscription-based API service that provides continuous\naccess to Stack Overflow\u2019s public dataset to train and fine-\ntune large language models.\n\nAPI solutions for busir\n\n",
+        "summary": " A subscription-based API service that provides continuous access to Stack Overflow\u2019s public dataset to train and fine-t",
+        "description": "a screenshot of a text message that reads ` ` ` ` ` ` ` ` ` `",
+        "path": "myapp\\static\\cropped_images\\18.png",
+        "audio_path": "myapp\\static\\cropped_audios\\18.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\18.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\18.mp3"
+    },
+    {
+        "id": 19,
+        "box": [
+            [
+                2993,
+                2708
+            ],
+            [
+                4002,
+                2708
+            ],
+            [
+                4002,
+                3185
+            ],
+            [
+                2993,
+                3185
+            ]
+        ],
+        "text": "> stackoverflow\nADVERTISING\n\nReach the world\u2019s largest audience of developers and\ntechnologists.\n\nBuild your employer brand >\n\n",
+        "summary": " Reaching the world\u2019s largest audience of developers andtechnologists",
+        "description": "a screenshot of a text message that reads ` ` ` ` ` ` ` ` ` `",
+        "path": "myapp\\static\\cropped_images\\19.png",
+        "audio_path": "myapp\\static\\cropped_audios\\19.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\19.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\19.mp3"
+    },
+    {
+        "id": 20,
+        "box": [
+            [
+                2995,
+                3201
+            ],
+            [
+                5026,
+                3201
+            ],
+            [
+                5026,
+                3997
+            ],
+            [
+                2995,
+                3997
+            ]
+        ],
+        "text": "Explore technical topics and other disciplines across 170+ Q&A communities\n\nS Q\n\noss\n\nYou are here! ask]\n\nExplore the network\n",
+        "summary": " Explore technical topics and other disciplines across 170+ Q&A communities . Explore the network",
+        "description": "a screenshote screen with the logo and the text",
+        "path": "myapp\\static\\cropped_images\\20.png",
+        "audio_path": "myapp\\static\\cropped_audios\\20.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\20.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\20.mp3"
+    },
+    {
+        "id": 21,
+        "box": [
+            [
+                3622,
+                4009
+            ],
+            [
+                4434,
+                4009
+            ],
+            [
+                4434,
+                4394
+            ],
+            [
+                3622,
+                4394
+            ]
+        ],
+        "text": "@ 6\nag 8\n",
+        "summary": "",
+        "description": "a screenshot of a white and yellow icon set",
+        "path": "myapp\\static\\cropped_images\\21.png",
+        "audio_path": "myapp\\static\\cropped_audios\\21.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\21.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\21.mp3"
+    },
+    {
+        "id": 22,
+        "box": [
+            [
+                2993,
+                4010
+            ],
+            [
+                3619,
+                4010
+            ],
+            [
+                3619,
+                4390
+            ],
+            [
+                2993,
+                4390
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "the logo for the app",
+        "path": "myapp\\static\\cropped_images\\22.png",
+        "audio_path": "myapp\\static\\cropped_audios\\22.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\22.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\22.mp3"
+    },
+    {
+        "id": 23,
+        "box": [
+            [
+                4436,
+                4038
+            ],
+            [
+                5011,
+                4038
+            ],
+            [
+                5011,
+                4392
+            ],
+            [
+                4436,
+                4392
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "the logo for the new app",
+        "path": "myapp\\static\\cropped_images\\23.png",
+        "audio_path": "myapp\\static\\cropped_audios\\23.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\23.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\23.mp3"
+    },
+    {
+        "id": 24,
+        "box": [
+            [
+                4565,
+                4577
+            ],
+            [
+                4639,
+                4577
+            ],
+            [
+                4639,
+                4628
+            ],
+            [
+                4565,
+                4628
+            ]
+        ],
+        "text": "(An\n",
+        "summary": "",
+        "description": "a cartoon pig with a pink nose and a black nose",
+        "path": "myapp\\static\\cropped_images\\24.png",
+        "audio_path": "myapp\\static\\cropped_audios\\24.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\24.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\24.mp3"
+    },
+    {
+        "id": 25,
+        "box": [
+            [
+                4776,
+                4580
+            ],
+            [
+                4860,
+                4580
+            ],
+            [
+                4860,
+                4669
+            ],
+            [
+                4776,
+                4669
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "a blue and white logo with the words'' '",
+        "path": "myapp\\static\\cropped_images\\25.png",
+        "audio_path": "myapp\\static\\cropped_audios\\25.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\25.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\25.mp3"
+    },
+    {
+        "id": 26,
+        "box": [
+            [
+                4372,
+                4589
+            ],
+            [
+                4400,
+                4589
+            ],
+            [
+                4400,
+                4610
+            ],
+            [
+                4372,
+                4610
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "a blue and white background with a white and blue background",
+        "path": "myapp\\static\\cropped_images\\26.png",
+        "audio_path": "myapp\\static\\cropped_audios\\26.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\26.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\26.mp3"
+    },
+    {
+        "id": 27,
+        "box": [
+            [
+                2995,
+                4591
+            ],
+            [
+                4980,
+                4591
+            ],
+            [
+                4980,
+                5086
+            ],
+            [
+                2995,
+                5086
+            ]
+        ],
+        "text": "Work here\n\nS stackoverflow\nJoin our mission to help empower the world to develop\ntechnology through collective knowledge.\n\n",
+        "summary": " Join our mission to help empower the world to develop technology through collective knowledge .",
+        "description": "a screenshot of a cartoon character with a capt that reads ` ` ` ` ` ` `",
+        "path": "myapp\\static\\cropped_images\\27.png",
+        "audio_path": "myapp\\static\\cropped_audios\\27.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\27.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\27.mp3"
+    },
+    {
+        "id": 28,
+        "box": [
+            [
+                3218,
+                5410
+            ],
+            [
+                3770,
+                5410
+            ],
+            [
+                3770,
+                5941
+            ],
+            [
+                3218,
+                5941
+            ]
+        ],
+        "text": "To share feedback about our\nplatform, please visit our meta\ncommunity.\n\nVisit Meta >\n",
+        "summary": " To share feedback about our platform, please visit our community",
+        "description": "the logo for the new website",
+        "path": "myapp\\static\\cropped_images\\28.png",
+        "audio_path": "myapp\\static\\cropped_audios\\28.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\28.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\28.mp3"
+    },
+    {
+        "id": 29,
+        "box": [
+            [
+                3824,
+                5412
+            ],
+            [
+                4344,
+                5412
+            ],
+            [
+                4344,
+                5934
+            ],
+            [
+                3824,
+                5934
+            ]
+        ],
+        "text": "Pa8\n\nLooking for help with Stack\nOverflow for Teams?\n\nVisit Teams Help Center >\n\n",
+        "summary": " Looking for help with StackOverflow for Teams? Visit",
+        "description": "a screenshot of a man with a white background and text that reads, looking for help stack",
+        "path": "myapp\\static\\cropped_images\\29.png",
+        "audio_path": "myapp\\static\\cropped_audios\\29.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\29.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\29.mp3"
+    },
+    {
+        "id": 30,
+        "box": [
+            [
+                4453,
+                5418
+            ],
+            [
+                4841,
+                5418
+            ],
+            [
+                4841,
+                5934
+            ],
+            [
+                4453,
+                5934
+            ]
+        ],
+        "text": "Find legal documents\nfor our products and\nservices.\n\nVisit Legal >\n\n",
+        "summary": " Find legal documents for our products and services",
+        "description": "a white background with a black and orange logo",
+        "path": "myapp\\static\\cropped_images\\30.png",
+        "audio_path": "myapp\\static\\cropped_audios\\30.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\30.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\30.mp3"
+    },
+    {
+        "id": 31,
+        "box": [
+            [
+                2661,
+                5422
+            ],
+            [
+                2843,
+                5422
+            ],
+            [
+                2843,
+                5622
+            ],
+            [
+                2661,
+                5622
+            ]
+        ],
+        "text": "",
+        "summary": "",
+        "description": "the logo for the new website",
+        "path": "myapp\\static\\cropped_images\\31.png",
+        "audio_path": "myapp\\static\\cropped_audios\\31.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\31.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\31.mp3"
+    },
+    {
+        "id": 32,
+        "box": [
+            [
+                2653,
+                5625
+            ],
+            [
+                3182,
+                5625
+            ],
+            [
+                3182,
+                5922
+            ],
+            [
+                2653,
+                5922
+            ]
+        ],
+        "text": "Check out our FAQ about how\nStack Overflow works.\n\nVisit Help Center >\n",
+        "summary": " Check out our FAQ about how Stack Overflow works",
+        "description": "a white background with a black and orange text that reads,'check out our fa about how",
+        "path": "myapp\\static\\cropped_images\\32.png",
+        "audio_path": "myapp\\static\\cropped_audios\\32.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\32.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\32.mp3"
+    },
+    {
+        "id": 33,
+        "box": [
+            [
+                2013,
+                5972
+            ],
+            [
+                5674,
+                5972
+            ],
+            [
+                5674,
+                6675
+            ],
+            [
+                2013,
+                6675
+            ]
+        ],
+        "text": "By clicking \u201cAccept all cookies\", you agree Stack Exchange\ncan store cookies on your device and disclose information in\naccordance with our Cookie Policy.\n\nCustomize settings\n\nK OVERFLOW\n\nions\n\nPRODUCTS\n\nTeams\nAdvertising\nCollectives\n\nTalent\n\nCOMPANY\n\nAbout\n\nPress\n\nWork Here\n\nLegal\n\nPrivacy Policy\nTerms of Service\nContact Us\nCookie Settings\n\nCookie Policy\n\nSTACK EXCHANGE NETWORK\n\nTechnology\n\nCulture & recreation\nLife & arts\n\nScience\nProfessional\n\nBusiness\n\nBlog\n\nFacebook\n\nTwitter\n\nLinkedin\n\nInstagram\n\nser contributions\n\n",
+        "summary": " Stack Exchange can store cookies on your device and disclose information in accordance with our Cookie Policy . By clicking \u201cAccept all cookies\", you agree Stack Exchange will disclose information .",
+        "description": "the screen is showing the text and the image of a person",
+        "path": "myapp\\static\\cropped_images\\33.png",
+        "audio_path": "myapp\\static\\cropped_audios\\33.mp3",
+        "summary_audio_path": "myapp\\static\\cropped_audios_summary\\33.mp3",
+        "description_audio_path": "myapp\\static\\cropped_audios_description\\33.mp3"
+    }
+]
